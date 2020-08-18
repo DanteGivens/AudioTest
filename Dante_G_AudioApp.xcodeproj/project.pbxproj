@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B512907A24EC5339001DE47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512907924EC5339001DE47F /* AppDelegate.swift */; };
+		B512907C24EC5339001DE47F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512907B24EC5339001DE47F /* SceneDelegate.swift */; };
+		B512907E24EC5339001DE47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512907D24EC5339001DE47F /* ViewController.swift */; };
+		B512908124EC5339001DE47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B512907F24EC5339001DE47F /* Main.storyboard */; };
+		B512908424EC5339001DE47F /* Dante_G_AudioApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B512908224EC5339001DE47F /* Dante_G_AudioApp.xcdatamodeld */; };
+		B512908624EC533D001DE47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B512908524EC533D001DE47F /* Assets.xcassets */; };
+		B512908924EC533D001DE47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B512908724EC533D001DE47F /* LaunchScreen.storyboard */; };
+		B512909424EC533E001DE47F /* Dante_G_AudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512909324EC533E001DE47F /* Dante_G_AudioAppTests.swift */; };
+		B512909F24EC533E001DE47F /* Dante_G_AudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512909E24EC533E001DE47F /* Dante_G_AudioAppUITests.swift */; };
+		B51290AF24EC6254001DE47F /* SadnessCosmos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B51290AE24EC6254001DE47F /* SadnessCosmos.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B512909024EC533E001DE47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B512906E24EC5339001DE47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B512907524EC5339001DE47F;
+			remoteInfo = Dante_G_AudioApp;
+		};
+		B512909B24EC533E001DE47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B512906E24EC5339001DE47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B512907524EC5339001DE47F;
+			remoteInfo = Dante_G_AudioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B512907624EC5339001DE47F /* Dante_G_AudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dante_G_AudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B512907924EC5339001DE47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B512907B24EC5339001DE47F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B512907D24EC5339001DE47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B512908024EC5339001DE47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B512908324EC5339001DE47F /* Dante_G_AudioApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dante_G_AudioApp.xcdatamodel; sourceTree = "<group>"; };
+		B512908524EC533D001DE47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B512908824EC533D001DE47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B512908A24EC533D001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B512908F24EC533E001DE47F /* Dante_G_AudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_AudioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B512909324EC533E001DE47F /* Dante_G_AudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_AudioAppTests.swift; sourceTree = "<group>"; };
+		B512909524EC533E001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B512909A24EC533E001DE47F /* Dante_G_AudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_AudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B512909E24EC533E001DE47F /* Dante_G_AudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_AudioAppUITests.swift; sourceTree = "<group>"; };
+		B51290A024EC533E001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51290AE24EC6254001DE47F /* SadnessCosmos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SadnessCosmos.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B512907324EC5339001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512908C24EC533E001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512909724EC533E001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B512906D24EC5339001DE47F = {
+			isa = PBXGroup;
+			children = (
+				B512907824EC5339001DE47F /* Dante_G_AudioApp */,
+				B512909224EC533E001DE47F /* Dante_G_AudioAppTests */,
+				B512909D24EC533E001DE47F /* Dante_G_AudioAppUITests */,
+				B512907724EC5339001DE47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B512907724EC5339001DE47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B512907624EC5339001DE47F /* Dante_G_AudioApp.app */,
+				B512908F24EC533E001DE47F /* Dante_G_AudioAppTests.xctest */,
+				B512909A24EC533E001DE47F /* Dante_G_AudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B512907824EC5339001DE47F /* Dante_G_AudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				B512907924EC5339001DE47F /* AppDelegate.swift */,
+				B512907B24EC5339001DE47F /* SceneDelegate.swift */,
+				B512907D24EC5339001DE47F /* ViewController.swift */,
+				B512907F24EC5339001DE47F /* Main.storyboard */,
+				B51290AE24EC6254001DE47F /* SadnessCosmos.mp3 */,
+				B512908524EC533D001DE47F /* Assets.xcassets */,
+				B512908724EC533D001DE47F /* LaunchScreen.storyboard */,
+				B512908A24EC533D001DE47F /* Info.plist */,
+				B512908224EC5339001DE47F /* Dante_G_AudioApp.xcdatamodeld */,
+			);
+			path = Dante_G_AudioApp;
+			sourceTree = "<group>";
+		};
+		B512909224EC533E001DE47F /* Dante_G_AudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B512909324EC533E001DE47F /* Dante_G_AudioAppTests.swift */,
+				B512909524EC533E001DE47F /* Info.plist */,
+			);
+			path = Dante_G_AudioAppTests;
+			sourceTree = "<group>";
+		};
+		B512909D24EC533E001DE47F /* Dante_G_AudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B512909E24EC533E001DE47F /* Dante_G_AudioAppUITests.swift */,
+				B51290A024EC533E001DE47F /* Info.plist */,
+			);
+			path = Dante_G_AudioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B512907524EC5339001DE47F /* Dante_G_AudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290A324EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioApp" */;
+			buildPhases = (
+				B512907224EC5339001DE47F /* Sources */,
+				B512907324EC5339001DE47F /* Frameworks */,
+				B512907424EC5339001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dante_G_AudioApp;
+			productName = Dante_G_AudioApp;
+			productReference = B512907624EC5339001DE47F /* Dante_G_AudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B512908E24EC533E001DE47F /* Dante_G_AudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290A624EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioAppTests" */;
+			buildPhases = (
+				B512908B24EC533E001DE47F /* Sources */,
+				B512908C24EC533E001DE47F /* Frameworks */,
+				B512908D24EC533E001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B512909124EC533E001DE47F /* PBXTargetDependency */,
+			);
+			name = Dante_G_AudioAppTests;
+			productName = Dante_G_AudioAppTests;
+			productReference = B512908F24EC533E001DE47F /* Dante_G_AudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B512909924EC533E001DE47F /* Dante_G_AudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290A924EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioAppUITests" */;
+			buildPhases = (
+				B512909624EC533E001DE47F /* Sources */,
+				B512909724EC533E001DE47F /* Frameworks */,
+				B512909824EC533E001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B512909C24EC533E001DE47F /* PBXTargetDependency */,
+			);
+			name = Dante_G_AudioAppUITests;
+			productName = Dante_G_AudioAppUITests;
+			productReference = B512909A24EC533E001DE47F /* Dante_G_AudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B512906E24EC5339001DE47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dante Givens";
+				TargetAttributes = {
+					B512907524EC5339001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B512908E24EC533E001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B512907524EC5339001DE47F;
+					};
+					B512909924EC533E001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B512907524EC5339001DE47F;
+					};
+				};
+			};
+			buildConfigurationList = B512907124EC5339001DE47F /* Build configuration list for PBXProject "Dante_G_AudioApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B512906D24EC5339001DE47F;
+			productRefGroup = B512907724EC5339001DE47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B512907524EC5339001DE47F /* Dante_G_AudioApp */,
+				B512908E24EC533E001DE47F /* Dante_G_AudioAppTests */,
+				B512909924EC533E001DE47F /* Dante_G_AudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B512907424EC5339001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51290AF24EC6254001DE47F /* SadnessCosmos.mp3 in Resources */,
+				B512908924EC533D001DE47F /* LaunchScreen.storyboard in Resources */,
+				B512908624EC533D001DE47F /* Assets.xcassets in Resources */,
+				B512908124EC5339001DE47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512908D24EC533E001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512909824EC533E001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B512907224EC5339001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512907E24EC5339001DE47F /* ViewController.swift in Sources */,
+				B512908424EC5339001DE47F /* Dante_G_AudioApp.xcdatamodeld in Sources */,
+				B512907A24EC5339001DE47F /* AppDelegate.swift in Sources */,
+				B512907C24EC5339001DE47F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512908B24EC533E001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512909424EC533E001DE47F /* Dante_G_AudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B512909624EC533E001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512909F24EC533E001DE47F /* Dante_G_AudioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B512909124EC533E001DE47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B512907524EC5339001DE47F /* Dante_G_AudioApp */;
+			targetProxy = B512909024EC533E001DE47F /* PBXContainerItemProxy */;
+		};
+		B512909C24EC533E001DE47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B512907524EC5339001DE47F /* Dante_G_AudioApp */;
+			targetProxy = B512909B24EC533E001DE47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B512907F24EC5339001DE47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B512908024EC5339001DE47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B512908724EC533D001DE47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B512908824EC533D001DE47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51290A124EC533E001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51290A224EC533E001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51290A424EC533E001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51290A524EC533E001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B51290A724EC533E001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_AudioApp.app/Dante_G_AudioApp";
+			};
+			name = Debug;
+		};
+		B51290A824EC533E001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_AudioApp.app/Dante_G_AudioApp";
+			};
+			name = Release;
+		};
+		B51290AA24EC533E001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_AudioApp;
+			};
+			name = Debug;
+		};
+		B51290AB24EC533E001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_AudioAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-AudioAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_AudioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B512907124EC5339001DE47F /* Build configuration list for PBXProject "Dante_G_AudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290A124EC533E001DE47F /* Debug */,
+				B51290A224EC533E001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290A324EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290A424EC533E001DE47F /* Debug */,
+				B51290A524EC533E001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290A624EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290A724EC533E001DE47F /* Debug */,
+				B51290A824EC533E001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290A924EC533E001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_AudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290AA24EC533E001DE47F /* Debug */,
+				B51290AB24EC533E001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B512908224EC5339001DE47F /* Dante_G_AudioApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B512908324EC5339001DE47F /* Dante_G_AudioApp.xcdatamodel */,
+			);
+			currentVersion = B512908324EC5339001DE47F /* Dante_G_AudioApp.xcdatamodel */;
+			path = Dante_G_AudioApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B512906E24EC5339001DE47F /* Project object */;
+}
